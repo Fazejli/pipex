@@ -55,13 +55,12 @@ infile ──► [child process: cmd1] ──pipe──► [child process: cmd2]
 
 ```
 pipex/
+├── libft/          # Personal C library
 ├── Makefile
 ├── pipex.h
 └── srcs
-├   ├── pipex.c     # Main logic & process handling
-├   └── utils.c     # Helper functions
-├── pipex_utils.c
-└── libft/          # Personal C library
+   ├── pipex.c     # Main logic & process handling
+   └── utils.c     # Helper functions
 ```
 
 ---
